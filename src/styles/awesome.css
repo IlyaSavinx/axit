@@ -1,9 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
-* {
-  box-sizing: border-box;
-}
-
 .section-header-line {
   border: 1px solid #ec7979;
   max-width: 170px;
@@ -22,6 +16,10 @@
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 65.72px;
+}
+
+.awesome-cards {
+  display: flex;
 }
 .awesome-card {
   display: inline-block;

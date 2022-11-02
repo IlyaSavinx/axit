@@ -1,0 +1,32 @@
+.header-main {
+  background-color: black;
+  height: 75px;
+  margin-top: 0%;
+}
+.container-header {
+  margin: 0 auto;
+  max-width: 1250px;
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.header-item {
+  max-width: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+}
+.header-navigation {
+  display: flex;
+  gap: 20%;
+  justify-content: end;
+}
+.header-navigation-link {
+  font-size: 14px;
+  font-family: "Open Sans";
+  text-decoration: none;
+  color: white;
+}

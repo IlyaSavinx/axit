@@ -7,14 +7,18 @@
 
 .tab-nav {
   border: none;
-  background-color: #ffffff;
+  background-color: #ffff;
   padding: 10px 70px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .tab-nav.tab-active {
   border: 1px solid #c5cbcd;
   border-bottom: none;
   border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .section-header-tabs {
@@ -43,7 +47,13 @@
   align-items: center;
   text-align: start;
 }
+.button-tabs {
+  margin-bottom: 54px;
+}
 .button-dowload-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #ec7979;
   width: 270px;
   height: 58px;
@@ -51,6 +61,8 @@
   font-family: "Open Sans";
   font-size: 18px;
   line-height: 25px;
+  border: none;
+  cursor: pointer;
 }
 .statue {
   display: inline-block;

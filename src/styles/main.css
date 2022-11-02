@@ -1,6 +1,9 @@
-@import"reset";
-@import"awesome.css";
-@import"container.css";
-@import"tabs.css";
-@import"header.css";
-@import"pricing options.css";
+@import "reset";
+@import "awesome.css";
+@import "container.css";
+@import "tabs.css";
+@import "header.css";
+@import "pricing options.css";
+@import "main-header.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
