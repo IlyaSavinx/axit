@@ -1,15 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
-.container {
-  max-width: 1170px;
+
+.tabs-navigation {
+  display: inline;
+}
+
+.tab-nav {
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 70px;
+}
+
+.tab-nav.tab-active {
+  border: 1px solid #c5cbcd;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+}
+
+.section-header-tabs {
+  display: inline-block;
+  vertical-align: top;
+  width: 1170px;
   margin: 0 auto;
 }
-.section-header {
-  display: inline-block;
-  width: 500px;
-  vertical-align: top;
-}
-.section-header-title {
+
+.section-header-title-tabs {
   font-family: "Open Sans";
   height: 124px;
   display: flex;
@@ -17,7 +32,7 @@
   font-size: 30px;
   line-height: 41px;
 }
-.section-header-sub-title {
+.section-header-sub-title-tabs {
   width: 570px;
   height: 210px;
   font-weight: 400px;
@@ -28,7 +43,7 @@
   align-items: center;
   text-align: start;
 }
-.button-dowload {
+.button-dowload-tabs {
   background-color: #ec7979;
   width: 270px;
   height: 58px;
@@ -39,9 +54,21 @@
 }
 .statue {
   display: inline-block;
+  width: 100%;
 }
 .statue-svobodi {
-  width: 470px;
-  height: 500px;
-  padding-left: 196px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.tab-columns {
+  display: flex;
+  border: 1px solid #c5cbcd;
+  width: 100%;
+}
+
+.left-tab-column {
+  padding-left: 100px;
+  padding-right: 30px;
+  margin-right: 3opx;
 }

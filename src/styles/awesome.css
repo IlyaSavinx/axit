@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.section-header-line {
+  border: 1px solid #ec7979;
+  max-width: 170px;
+  height: 1px;
+  border-left-width: 237px;
+  padding-top: 0px;
+  border-top-width: 0px;
+  margin-top: 50px;
+  padding-left: 0px;
+  margin-left: 468px;
+  margin-bottom: 50px;
+}
+.section-header-subtitle {
+  font-family: "Raleway";
+  color: #86878b;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 65.72px;
+}
+.awesome-card {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 387px;
+}
+.awesome-card-circle {
+  border: 1px solid #ec7979;
+  border-radius: 100%;
+  width: 92px;
+  height: 92px;
+  margin: 0 auto;
+}
+.awesome-card-icon-bulb {
+  width: 61px;
+  height: 61px;
+  margin: 15px;
+}
+.awesome-card-title {
+  display: flex;
+  justify-content: space-around;
+
+  font-size: 18px;
+  line-height: 25px;
+
+  font-family: "Open Sans";
+
+  align-items: center;
+}
+.awesome-card-discription {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Raleway";
+  width: 318px;
+  height: 64px;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 15px;
+}

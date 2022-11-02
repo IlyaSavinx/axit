@@ -1,0 +1,19 @@
+.container-tabs {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.awesome-section {
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+.container-awesome {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.container-pricing-option {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: rgba(245, 245, 245, 1);
+}

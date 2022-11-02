@@ -1,0 +1,17 @@
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-header-title {
+  font-family: "Raleway";
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.section-header-line {
+  border: none;
+  background-color: #ec7979;
+  height: 1px;
+  width: 12%;
+  margin: 0 auto;
+}
