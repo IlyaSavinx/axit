@@ -1,4 +1,4 @@
-@import "reset";
+@import "reset.css";
 @import "awesome.css";
 @import "container.css";
 @import "tabs.css";
@@ -7,3 +7,15 @@
 @import "main-header.css";
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
+
+
+* {
+    box-sizing: border-box;
+  }
+
+ 
+  .wrapper{
+    display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}

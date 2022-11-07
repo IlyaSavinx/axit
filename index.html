@@ -8,54 +8,56 @@
     <link rel="stylesheet" href="./src/styles/main.css" />
   </head>
   <body>
-    <header class="header-main">
-      <div class="container-header">
+   <div class="wrapper">
+    <header class="main-header">
+      <div class="container main-header__container">
         <div class="header-item">
           <div class="header-logo">
-            <a href="#" class="header-logo__axit"
-              ><img
+            <a class="header-logo__axit" href="#" 
+              ><img class="main-header__logo"
                 src="./src/assets/icons/logo axit.svg"
                 alt="logotip axit"
             /></a>
           </div>
           <nav class="header-navigation">
-            <a class="header-navigation-link" href="#">Features</a>
-            <a class="header-navigation-link" href="#">About</a>
-            <a class="header-navigation-link" href="#">Pricing</a>
-            <a class="header-navigation-link" href="#">Reviews</a>
-            <a class="header-navigation-link" href="#">Contact</a>
+            <a class="header-navigation__link" href="#">Features</a>
+            <a class="header-navigation__link" href="#">About</a>
+            <a class="header-navigation__link" href="#">Pricing</a>
+            <a class="header-navigation__link" href="#">Reviews</a>
+            <a class="header-navigation__link" href="#">Contact</a>
           </nav>
         </div>
       </div>
     </header>
+
     <section class="tabs-section">
-      <div class="container-tabs">
-        <div class="section-header-tabs">
-          <div class="tabs-navigation">
-            <button class="tab-nav tab-active" type="button">TAB 1</button>
-            <button class="tab-nav" type="button">TAB 2</button>
-            <button class="tab-nav" type="button">TAB 3</button>
+      <div class="container">
+        <div class="section-header__tabs">
+          <div class="tabs__navigation">
+            <button class="tabs__nav tabs__nav--active" type="button">TAB 1</button>
+            <button class="tabs__nav" type="button">TAB 2</button>
+            <button class="tabs__nav" type="button">TAB 3</button>
           </div>
-          <div class="tab-columns">
-            <div class="left-tab-column">
-              <h3 class="section-header-title-tabs">
+          <div class="tab__columns">
+            <div class="left-tab__column">
+              <h3 class="section-header__title-tabs">
                 Tabs with soft transitioning effect.
               </h3>
-              <p class="section-header-sub-title-tabs">
+              <p class="section-header__subtitle-tabs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod<br /> bibendum laoreet. Proin gravida dolor sit amet lacus
                 accumsan et viverra<br /> justo commodo. Proin sodales pulvinar
                 tempor. Cum sociis natoque penatibus et magnis dis parturient
-                montes.<br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                montes.<br /><br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Aenean euismod bibendum laoreet.
               </p>
-              <div class="button-tabs">
-              <button class="button-dowload-tabs" type="button">Dowload</button>
+              <div class="button__tabs">
+              <button class="button-dowload__tabs" type="button">Dowload</button>
             </div>
             </div>
-            <div class="statue">
+            <div class="image__statue">
               <img
-                class="statue-svobodi"
+                class="image__statue-svobodi"
                 src="./src/assets/icons/statue.png"
                 alt="freedomStatue"
               />
@@ -66,7 +68,7 @@
     </section>
 
     <section class="awesome-section">
-      <div class="container-awesome">
+      <div class="container">
         <headed class="section-header">
           <h2 class="section-header-title">WHY THIS IS AWESOME</h2>
           <div class="section-header-line"></div>
@@ -180,5 +182,6 @@
         </div>
       </div>
     </section>
+  </div>
   </body>
 </html>

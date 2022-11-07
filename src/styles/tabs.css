@@ -1,34 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
 
-.tabs-navigation {
-  display: inline;
+.section-header__tabs {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin: 0 auto;
+}
+.tabs__navigation {
+  padding-top: 100px;
 }
 
-.tab-nav {
+.tabs__nav {
   border: none;
   background-color: #ffff;
   padding: 10px 70px;
   cursor: pointer;
   font-size: 14px;
+  font-family: "Open Sans";
 }
 
-.tab-nav.tab-active {
+.tabs__nav--active {
   border: 1px solid #c5cbcd;
   border-bottom: none;
   border-radius: 5px 5px 0 0;
   cursor: pointer;
   font-size: 14px;
 }
-
-.section-header-tabs {
-  display: inline-block;
-  vertical-align: top;
-  width: 1170px;
-  margin: 0 auto;
+.tab__columns {
+  display: flex;
+  border: 1px solid #c5cbcd;
+  width: 100%;
+  min-height: 500px;
 }
 
-.section-header-title-tabs {
+.left-tab__column {
+  padding-left: 100px;
+  padding-right: 30px;
+  margin-right: 3opx;
+}
+
+.section-header__title-tabs {
   font-family: "Open Sans";
   height: 124px;
   display: flex;
@@ -36,7 +48,7 @@
   font-size: 30px;
   line-height: 41px;
 }
-.section-header-sub-title-tabs {
+.section-header__subtitle-tabs {
   width: 570px;
   height: 210px;
   font-weight: 400px;
@@ -47,16 +59,16 @@
   align-items: center;
   text-align: start;
 }
-.button-tabs {
-  margin-bottom: 54px;
+.button__tabs {
+  padding-top: 27px;
 }
-.button-dowload-tabs {
+.button-dowload__tabs {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ec7979;
-  width: 270px;
-  height: 58px;
+  min-width: 270px;
+  min-height: 58px;
   color: white;
   font-family: "Open Sans";
   font-size: 18px;
@@ -64,23 +76,11 @@
   border: none;
   cursor: pointer;
 }
-.statue {
+.image__statue {
   display: inline-block;
   width: 100%;
 }
-.statue-svobodi {
+.image__statue-svobodi {
   min-width: 100%;
   min-height: 100%;
-}
-
-.tab-columns {
-  display: flex;
-  border: 1px solid #c5cbcd;
-  width: 100%;
-}
-
-.left-tab-column {
-  padding-left: 100px;
-  padding-right: 30px;
-  margin-right: 3opx;
 }
