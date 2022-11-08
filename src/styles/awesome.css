@@ -2,12 +2,11 @@
 
 .awesome-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .awesome-card {
   display: inline-block;
   box-sizing: border-box;
-  width: 387px;
 }
 
 
@@ -15,17 +14,15 @@
   display: flex;
   justify-content:center;
   margin: 0 auto;
+  padding-top: 67px;
 }
 .awesome-card__title {
   display: flex;
   justify-content: space-around;
-  padding-top: 34px;
-  font-size: 18px;
-  line-height: 25px;
-
+  padding-top: 25px;
+  font-size: 24px;
+  line-height: 33px;
   font-family: "Open Sans";
-
-
 }
 .awesome-card__discription {
   display: flex;
@@ -33,11 +30,10 @@
   justify-content: center;
   text-align: center;
   font-family: "Raleway";
-  width: 318px;
-  
+  width: 370px;
   font-weight: 400px;
-  font-size: 14px;
-  line-height: 16px;
-  margin-left: 30px;
-  margin-top: 30px;
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 58px;
+  margin-bottom: 58px;
 }
