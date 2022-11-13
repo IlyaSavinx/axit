@@ -7,6 +7,7 @@
 @import "header-seaction.css";
 @import "pricing-options.css";
 @import "main-header.css";
+@import "customers.css";
 
 * {
   box-sizing: border-box;

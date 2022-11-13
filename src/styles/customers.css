@@ -1,0 +1,65 @@
+.customers__content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  padding-top: 83px;
+  height: 336px;
+}
+.customers__title {
+    
+}
+.customers__title-block-text{
+    display: flex;
+    max-width: 370px;
+    min-height: 180px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    position: relative;
+}
+.customers__title-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.customers__title-block-text::after{
+    position: absolute;
+    content:'';
+    border-top: 30px solid #E2E2E2;
+    border-left: 20px solid  transparent;
+    border-right: 20px solid transparent;
+    top: 180px;
+    left: 65px;
+}
+
+.customers__account {
+  padding-top: 66px;
+  position: relative;
+
+}
+.customers__avatar-image {
+  display: inline-block;
+}
+.name__manager {
+  position: absolute;
+  left: 100px;
+  bottom: 40px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+.speciality__manager {
+  position: absolute;
+  left: 100px;
+  bottom: -14px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  
+}
