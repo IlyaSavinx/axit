@@ -1,0 +1,31 @@
+.section__disign-aksure {
+  background-image: linear-gradient(rgba(30, 29, 29, 0.8), rgba(0, 0, 0, 0.5)),
+    url(../assets/icons/images/background-town.jpg);
+  max-width: 100%;
+  min-height: 478px;
+  background-size: contain;
+}
+.section-header__white * {
+  color: white;
+}
+.section-header__line--white {
+  background-color: white;
+}
+
+.button__design-aksure-block {
+  display: flex;
+  justify-content: center;
+  padding-top: 73px;
+}
+.button__design-aksure {
+  list-style-type: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: solid 1px white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  min-width: 370px;
+  min-height: 58px;
+}

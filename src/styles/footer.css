@@ -1,0 +1,23 @@
+.footer {
+  background-color: black;
+  width: 100%;
+  min-height: 164px;
+}
+.social-networks {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+.social-networks-block__icon-image {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.footer__year {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Raleway";
+}
