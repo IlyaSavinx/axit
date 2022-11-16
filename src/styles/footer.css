@@ -12,10 +12,10 @@
   padding-left: 17px;
   padding-right: 17px;
 }
-.footer__year {
+.footer__copyright {
   display: flex;
   justify-content: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;

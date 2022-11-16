@@ -6,11 +6,10 @@
 .section-header__title {
   font-family: "Raleway";
   font-weight: 400;
-font-size: 36px;
-line-height: 42px;
+  font-size: 36px;
+  line-height: 42px;
   text-transform: uppercase;
   padding-top: 125px;
-  
 }
 .section-header__line {
   border: none;
@@ -19,20 +18,18 @@ line-height: 42px;
   min-width: 170px;
   margin-top: 60px;
   margin-bottom: 0px;
-
 }
 .section-header__subtitle {
   font-family: "Raleway";
   color: #86878b;
   font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+  font-size: 18px;
+  line-height: 21px;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 40px;
 }
 
-.section-header__title--active{
+.section-header__title--active {
   padding-top: 108px;
 }
-
