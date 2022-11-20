@@ -1,0 +1,99 @@
+.banner-content{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/icons/images/background_banner.jpg) 0 0/100% 100%;
+}
+.banner-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 17% 0; 
+}
+.banner-block__text-logo-image{
+    height: 120px;
+}
+.banner-block__text-title{
+    font-family: "Raleway";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: white;
+  max-width: 670px;
+}
+.banner-block__text-title::after{
+    content: "";
+  display: block;
+  max-width: 120px;
+  height: 1px;
+  background-color: white;
+  margin: 50px 0 60px;
+}
+.banner-block__text-subtitle{
+    font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 42px;
+  color: white;
+  max-width: 270px;
+}
+.banner-block__text-download{
+   
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px 75px;
+}
+.banner-block__text-download:hover{
+    border: 1px solid red;
+    color: red;
+}
+.banner-form{
+    min-width: 470px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+.banner-form__title{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    padding: 33px 0 60px;
+    text-align: center;
+}
+.banner-form__title-red {
+    color: #ec7979;
+    background-color: white;
+  }
+.banner-form__inputs{
+    display: flex;
+    flex-direction: column;
+}
+.banner-form__input {
+    font-family: "Open Sans";
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0 0 16px;
+    margin: 0 50px 40px;
+  }
+  .banner-form__input-submit {
+    cursor: pointer;
+    margin-top: 33px;
+    width: 100%;
+    background-color: #ec7979;
+    color: white;
+    border: none;
+    min-height: 60px;
+    border-radius: 0px 0px 10px 10px;
+    font-family: "Open Sans"; 
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+.banner-form__input-submit:hover{
+    background-color: red;
+    color: black;
+}

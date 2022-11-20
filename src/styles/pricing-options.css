@@ -4,6 +4,7 @@
   align-items: flex-end;
   padding-top: 60px;
   padding-bottom: 50px;
+  min-height: 480px;
 }
 .pricing-card__block {
   min-width: 370px;

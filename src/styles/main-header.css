@@ -21,7 +21,7 @@
 }
 .header-navigation {
   display: flex;
-  gap: 20%;
+  gap: 30%;
   justify-content: end;
   padding-right: 40px;
 }

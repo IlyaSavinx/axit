@@ -1,0 +1,51 @@
+.contact-form {
+  padding-top: 89px;
+  
+}
+.contact-form__container {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form__imputs {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.contact-form__imput {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  margin: 40px 0px 0px 0px;
+  padding: 0px 0px 16px 0px;
+}
+.contact-form__imput:focus {
+  outline: none;
+}
+.contact-form__message {
+  width: 48%;
+  font-family: "Open Sans";
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  resize: none;
+}
+.contact-form__input-submit {
+ display: block;
+ cursor: pointer;
+  border: solid 1px red;
+  background: #ec7979;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  min-width: 370px;
+  min-height: 58px;
+  margin: 50px auto 50px auto
+}
+.contact-form__input-submit:hover{
+    background-color: red;
+    color: black;
+}
