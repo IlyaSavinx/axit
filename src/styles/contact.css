@@ -1,6 +1,5 @@
 .contact-form {
   padding-top: 89px;
-  
 }
 .contact-form__container {
   display: flex;
@@ -33,8 +32,8 @@
   resize: none;
 }
 .contact-form__input-submit {
- display: block;
- cursor: pointer;
+  display: block;
+  cursor: pointer;
   border: solid 1px red;
   background: #ec7979;
   color: white;
@@ -43,9 +42,9 @@
   line-height: 25px;
   min-width: 370px;
   min-height: 58px;
-  margin: 50px auto 50px auto
+  margin: 50px auto 50px auto;
 }
-.contact-form__input-submit:hover{
-    background-color: red;
-    color: black;
+.contact-form__input-submit:hover {
+  background-color: red;
+  color: black;
 }

@@ -75,6 +75,10 @@
   border: none;
   cursor: pointer;
 }
+.button-dowload__tabs:hover {
+  background-color: red;
+  color: black;
+}
 .image__statue {
   display: inline-block;
   width: 100%;
