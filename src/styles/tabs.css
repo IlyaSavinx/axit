@@ -76,8 +76,7 @@
   cursor: pointer;
 }
 .button-dowload__tabs:hover {
-  background-color: red;
-  color: black;
+  background-color: #AB4949;
 }
 .image__statue {
   display: inline-block;

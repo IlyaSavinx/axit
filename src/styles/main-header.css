@@ -31,3 +31,6 @@
   text-decoration: none;
   color: white;
 }
+.header-navigation__link:hover {
+  background-color: #ab4949;
+}

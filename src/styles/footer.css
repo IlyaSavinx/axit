@@ -1,20 +1,25 @@
 .footer {
   background-color: black;
   width: 100%;
+  
+}
+.container-social-networks{
+  display: flex;
+  flex-direction: column;
   min-height: 164px;
+  min-width: 540px;
+  justify-content: center;
+  align-items: center;
 }
 .social-networks {
   display: flex;
-  justify-content: center;
   padding-top: 35px;
 }
 .social-networks-block__icon-image {
-  padding-left: 17px;
-  padding-right: 17px;
+ padding: 10px 10px;
+ height: 70px;
 }
 .footer__copyright {
-  display: flex;
-  justify-content: center;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
   font-size: 18px;

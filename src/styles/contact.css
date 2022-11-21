@@ -45,6 +45,5 @@
   margin: 50px auto 50px auto;
 }
 .contact-form__input-submit:hover {
-  background-color: red;
-  color: black;
+  background-color: #AB4949;
 }

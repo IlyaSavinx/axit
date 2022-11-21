@@ -29,3 +29,7 @@
   min-width: 370px;
   min-height: 58px;
 }
+.button__design-aksure:hover {
+  border: 1px solid #ab4949;
+  color: #ab4949;
+}
