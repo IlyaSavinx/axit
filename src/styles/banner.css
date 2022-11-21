@@ -45,8 +45,8 @@
   padding: 18px 75px;
 }
 .banner-block__text-download:hover {
-  border: 1px solid #AB4949;
-  color: #AB4949;
+  border: 1px solid #ab4949;
+  color: #ab4949;
 }
 .banner-form {
   min-width: 470px;
@@ -95,5 +95,5 @@
   font-size: 15px;
 }
 .banner-form__input-submit:hover {
-  background-color: #AB4949;
+  background-color: #ab4949;
 }
