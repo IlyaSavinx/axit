@@ -43,7 +43,7 @@
 .customers__avatar-image {
   display: inline-block;
 }
-.name__manager {
+.customers__name-manager {
   position: relative;
   left: 100px;
   bottom: 70px;
@@ -53,7 +53,7 @@
   line-height: 33px;
   max-width: 269px;
 }
-.speciality__manager {
+.customers__speciality-manager {
   position: relative;
   left: 100px;
   bottom: 40px;
