@@ -34,3 +34,12 @@
 .header-navigation__link:hover {
   background-color: #ab4949;
 }
+
+@media(max-width: 480px) {
+  .main-header__container{
+    max-width: 320px;
+  }
+  .header-navigation{
+    display: none;
+  }
+}

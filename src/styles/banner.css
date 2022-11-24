@@ -49,7 +49,7 @@
   color: #ab4949;
 }
 .banner-form {
-  min-width: 470px;
+  min-width: 40%;
   max-height: 450px;
   background-color: white;
   border-radius: 10px;
@@ -97,3 +97,41 @@
 .banner-form__input-submit:hover {
   background-color: #ab4949;
 }
+
+@media (max-width: 480px) {
+  .banner-block__text{
+    padding: 0px;
+  }
+  .banner-block{
+    flex-direction: column;
+  }
+  .banner-block__text-logo-image{
+    display: none;
+  }
+  .banner-block__text-title {
+    text-align: center;
+  }
+  .banner-block__text-title::after {
+    margin: 10% auto 8% auto;
+  }
+  .banner-block__text-subtitle {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 288px;
+  }
+  .banner-block__text-download {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px 35%;
+    margin: 0 auto 10% 5%;
+  }
+  .banner-form {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .banner-form__inputs {
+    padding: 0 0 60px;
+  }
+}
+

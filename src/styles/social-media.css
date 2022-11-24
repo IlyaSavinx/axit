@@ -33,3 +33,24 @@
   min-height: 70px;
   min-width: 70px;
 }
+
+@media (max-width: 480px) {
+  .social-media-container {
+    flex-direction: column;
+  }
+  .social-media-block__icon-img {
+    padding: 0;
+    height: 30px;
+  }
+  .social-media__title {
+    text-align: center;
+    padding: 20px;
+  }
+  .social-media__description {
+    text-align: center;
+  }
+  .social-media-block{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
